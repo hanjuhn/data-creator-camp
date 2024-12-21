@@ -1,19 +1,15 @@
-# Data-Creator-Camp
-2024 데이터 크리에이터 캠프에 팀 ‘비타맥스’로 참여하여 패션 스타일 이미지 분류, 패션 스타일 선호 여부 파악과 예측 과제 수행 (ResNet-18, Item-based Filtering)
 # **Data-Creator-Camp** | 2024 데이터 크리에이터 캠프
 
-## 🏆 우수상 (한국지능정보사회진흥원 원장상) 수상
+### 🏆 우수상 (한국지능정보사회진흥원 원장상) 수상
+
+- **팀원 : 김홍재(팀장), 김동현, 박준영, 배한준**
+- **팀명 : 비타맥스**
+
+---
 
 ## 🌟 **Introduction | 대회 소개**
 
 데이터 크리에이터 캠프는 데이터 분석 저변 확대와 창의력 있는 인재 양성을 위한 데이터 분석, 인공지능 분야 대회로 과학기술정보통신부와 한국지능정보사회진흥원이 주최하며 K-ICT 빅데이터센터가 주관합니다.
-
----
-
-## 🧑‍🤝‍🧑 **Team Members | 팀원**
-
-- 김홍재(팀장), 김동현, 박준영, 배한준
-- 팀명 : 비타맥스
 
 ---
 
@@ -27,17 +23,17 @@
 
 ### Mission 1 (ResNet-18을 이용한 패션 스타일 이미지 분류)
 
-![스크린샷 2024-12-21 오전 1.02.32.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0653cc05-22dc-4b55-ae76-da7d318bf106/615bd3e3-3219-4609-8bba-e5b8c1631b54/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-12-21_%EC%98%A4%EC%A0%84_1.02.32.png)
+![스크린샷 2024-12-21 오전 1.02.32.png](https://github.com/user-attachments/assets/48eaed85-c9fa-483f-8534-fe23eb988e06)
 
 - 주어진 이미지에 대해 총 31가지의 성별+스타일 조합을 예측하는 문제
-- 사용 모델 : ResNet18
+- 사용 모델 : ResNet 18
 - 데이터 변환 방법 : 시멘틱 세그멘테이션(Deeplabv3_MobileNetV3_Large)
 - 성능 향상 방법 : 데이터 증강(Resize/Rotate) / 레이블 스무딩(e:0.05) / 스케쥴러(size=5)
 - 최종 모델 : validation Top-1 Score 기준 64.35% (epoch 50)
 
 ### Mission 2 (라벨 데이터를 통한 패션 스타일 선호 여부 파악)
 
-![스크린샷 2024-12-21 오전 1.02.51.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0653cc05-22dc-4b55-ae76-da7d318bf106/3ff0f154-9024-4804-9c8b-f0e0a003b48e/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-12-21_%EC%98%A4%EC%A0%84_1.02.51.png)
+![스크린샷 2024-12-21 오전 1.02.51.png](https://github.com/user-attachments/assets/ce456332-2c0c-4442-b134-df938fc86da3)
 
 - 라벨링 데이터로부터 스타일 선호 정보표 생성
 - 이미지 데이터와 유효한 라벨링 데이터에 동시에 존재하는 ID의 데이터만 추출
@@ -45,7 +41,7 @@
 
 ### Mission 3 (Item-based Filtering을 이용한 패션 스타일 선호 여부 예측)
 
-![스크린샷 2024-12-21 오전 1.03.57.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/0653cc05-22dc-4b55-ae76-da7d318bf106/fc0491c8-5c4b-4fe3-8fc5-dc8724ea3b19/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7_2024-12-21_%EC%98%A4%EC%A0%84_1.03.57.png)
+![스크린샷 2024-12-21 오전 1.03.57.png](https://github.com/user-attachments/assets/d190a6bb-271e-4608-81c5-4fc46fc60e48)
 
 - 이미지 간의 유사도를 이용한 패션 이미지 선호 여부 예측
 - 사용 방법 : 혼합 매트릭스를 이용한 아이템 기반 필터링
