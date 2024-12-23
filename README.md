@@ -26,7 +26,7 @@
 ![스크린샷 2024-12-21 오전 1.02.32.png](https://github.com/user-attachments/assets/48eaed85-c9fa-483f-8534-fe23eb988e06)
 
 - 주어진 이미지에 대해 총 31가지의 성별+스타일 조합을 예측하는 문제
-- 사용 모델 : ResNet 18
+- 사용 모델 : ResNet-18
 - 데이터 변환 방법 : 시멘틱 세그멘테이션(Deeplabv3_MobileNetV3_Large)
 - 성능 향상 방법 : 데이터 증강(Resize/Rotate) / 레이블 스무딩(e:0.05) / 스케쥴러(size=5)
 - 최종 모델 : validation Top-1 Score 기준 64.35% (epoch 50)
