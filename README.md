@@ -1,25 +1,25 @@
-# **Data-Creator-Camp** | 2024 데이터 크리에이터 캠프
+# Data-Creator-Camp | 2024 데이터 크리에이터 캠프
 
-### 🏆 우수상 (한국지능정보사회진흥원 원장상) 수상
+### 🏆 2024 데이터 크리에이터 캠프 우수상 (한국지능정보사회진흥원 원장상) 수상
 
 - **팀원 : 김홍재(팀장), 김동현, 박준영, 배한준**
 - **팀명 : 비타맥스**
 
 ---
 
-## 🌟 **Introduction | 대회 소개**
+## 🌟 Introduction | 대회 소개
 
 데이터 크리에이터 캠프는 데이터 분석 저변 확대와 창의력 있는 인재 양성을 위한 데이터 분석, 인공지능 분야 대회로 과학기술정보통신부와 한국지능정보사회진흥원이 주최하며 K-ICT 빅데이터센터가 주관합니다.
 
 ---
 
-## 📅 **Progress Period | 진행 기간**
+## 📅 Progress Period | 진행 기간
 
 - **2024.09.23 ~ 2024.11.30**
 
 ---
 
-## 🚀 **Process |** 수행 과정
+## 🚀 Process | 수행 과정
 
 ### Mission 1 (ResNet-18을 이용한 패션 스타일 이미지 분류)
 
@@ -39,7 +39,7 @@
 - 이미지 데이터와 유효한 라벨링 데이터에 동시에 존재하는 ID의 데이터만 추출
 - 라벨링 데이터(json)의 선호 여부 추출
 
-### Mission 3 (Item-based Filtering을 이용한 패션 스타일 선호 여부 예측)
+### Mission 3 (이미지 유사도와 Item-based Filtering을 이용한 패션 스타일 선호 여부 예측)
 
 ![스크린샷 2024-12-21 오전 1.03.57.png](https://github.com/user-attachments/assets/d190a6bb-271e-4608-81c5-4fc46fc60e48)
 
@@ -55,7 +55,7 @@
 
 ---
 
-## 📁 **Key Directories and Files | 주요 디렉토리 및 파일**
+## 📁 Key Directories and Files | 주요 디렉토리 및 파일
 
 - `notebooks/`: 미션 수행 Jupyter notebook
 - `presentation/`: 미션 수행 과정을 담은 발표 자료
